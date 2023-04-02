@@ -1,0 +1,269 @@
+/* Start Golobal Rulls */
+:root{
+    --mainColor:#8baad6;
+    --padding-top:70px;
+    --padding-buttom:70px;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.min-title{
+    background-color: var(--mainColor);
+    color: white;
+    padding: 7px 10px;
+    margin: auto;
+    width: fit-content;
+    border: 1px solid;
+    border-radius: 40px;
+    text-align: center;
+}
+.card{
+    border: none;
+}
+.card h5{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.card span{
+    color: var(--mainColor);
+    text-decoration: line-through;
+}
+.card p{
+    color: black;
+}
+.card a{
+    background-color: var(--mainColor);
+    color: white;
+    padding: 5px 7px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+/* End Golobal Rulls */
+/* Start Topbar */
+.topbar{
+    background-color: #000000c9;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.topbar .bar-link a{
+    color: white;
+    border-left: 1px solid white;
+}
+.topbar .bar-link a:nth-child(1){
+    border-left: none;
+}
+.topbar .bar-link .icon-home{
+    color: var(--mainColor);
+}
+/* End Topbar */
+/* Start Header */
+.header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000000a1;
+    font-size: 18px;
+}
+.header .call-header{
+    padding-top: 20px;
+}
+.header .call-header a{
+    color: #000000a1;
+}
+.header .call-header i{
+    margin-right: 5px;
+}
+/* End Header */
+/* Start Navbar */
+.navbar{
+    background-color: var(--mainColor);
+    color: #6399e7;
+}
+.navbar .navbar-brand{
+    color: #0f4aa1;
+}
+.navbar .navbar-brand:hover{
+    color: #0f4aa1;
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+    margin-right: 20px;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #0f4aa1;
+}
+.navbar-dark .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0; 
+    box-shadow: none;
+    border-color: var(--mainColor);
+}
+/* End Navbar */
+/* Start Slide */
+.slider{
+    background: url(../images/bg_1.jpg) center center;
+    background-size: cover;
+    height: 100vh;
+}
+.slider h3{
+    font-weight: bold;
+}
+.slider h2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+}
+.slider h1{
+    font-weight: bold;
+    font-size: 100px;
+}
+/* End Slide */
+/* Start Section */
+.section .card-body{
+    border-radius: 10px;
+    background-color: var(--mainColor);
+    color: white;
+}
+.section .card-body .shop{
+    border: 1px solid white;
+    padding: 5px 7px;
+    background-color: white;
+    color: var(--mainColor);
+    font-weight: bold;
+    border-radius: 10px;
+}
+/* End Section */
+/* Start Dsceone  */
+.dsceone{
+    padding-top: var(--padding-top);
+    padding-bottom: var(--padding-buttom);
+}
+.dsceone img{
+    border-left:2px solid var(--mainColor);
+    padding-left: 10px;
+    width: 50px;
+    margin-top: 10px;
+}
+.dsceone span{
+    display: block;
+    padding-top: 5px;
+    color: var(--mainColor);
+}
+/* End Dsceone  */
+/* Start Product */
+.product{
+    padding-top: var(--padding-top);
+    padding-bottom: var(--padding-buttom);
+}
+/* End Product */
+/* Start Deal */
+.deal{
+    background-image: url(../images/bg_5.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.deal .deal-word .dool{
+    background-color: var(--mainColor);
+    color: white;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+}
+/* End Deal */
+/* Start Sale */
+.sale{
+    padding-top: var(--padding-top);
+    padding-bottom: var(--padding-buttom);
+}
+.sale .box{
+    padding-top: 30px;
+}
+.sale .countr{
+    background-color: var(--mainColor);
+    border: 1px solid var(--mainColor);
+    border-radius: 5px;
+    color: white;
+    padding: 3px 10px;
+    font-size: 22px;
+}
+/* End Sale */
+/* Start Compna */
+.compna{
+    padding-top: var(--padding-top);
+    padding-bottom: var(--padding-buttom);
+}
+/* End Compna */
+/* Start Footer */
+.footer{
+    padding-top: var(--padding-top);
+    /* padding-bottom: var(--padding-buttom); */
+    background-color: #01325d;
+    color: #777;
+}
+.form-control{
+    background-color: #ddd;
+    color: black;
+    border-color: #ddd;
+}
+.form-control:focus {
+    color: black;
+    background-color: #ddd;
+    border-color: #ddd;
+    outline: 0;
+    box-shadow: none;
+}
+.footer .btn{
+    color: #777;
+    background-color: #01325d;
+    font-size: 20px;
+    border: 1px solid #777;
+    border-radius: 10px;
+}
+.btn:hover{
+    color: #777;
+}
+.footer .copyright {
+    padding: 25px 0;
+    color: #777;
+    border-top: 1px solid #777;
+}
+/* End Footer */
+
+/*############## START PRODUCT ###################*/
+/* Start Slide */
+.slid{
+    background: url(../images/bg_5.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: calc(100vh - 44 -242 - 56);
+}
+.slid h3{
+    font-weight: bold;
+}
+.slid h2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+}
+.slid h1{
+    font-weight: bold;
+    font-size: 100px;
+}
+/* End Slide */
+/*############## END PRODUCT ###################*/
+
+
+
+
+
+
+
+
+
+
